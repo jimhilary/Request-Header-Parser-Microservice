@@ -1,32 +1,68 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
-	line-height: 1.4em;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
 }
 
+/* Container styling for better readability and visual hierarchy */
 .container {
-	padding: 0;
-	margin-top: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h3 {
-  margin-top: 30px;
+/* Typography styling for clear information hierarchy */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
 }
 
-.footer {
-	margin-top: 40px;
+h2 {
+    color: #34495e;
+    margin-top: 25px;
 }
 
-code {
-  font-family: monospace;
-  padding: 2px;
-  color: black;
-  background-color: #fff;
+/* Styling for the code example display */
+pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+    border: 1px solid #e9ecef;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+/* Link styling for better user interaction */
 a {
-	color: #2574A9;
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #7f8c8d;
+}
+
+/* Description section styling */
+.description {
+    margin: 20px 0;
+    padding: 0 15px;
 }
